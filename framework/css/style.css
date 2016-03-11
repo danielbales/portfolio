@@ -9,12 +9,14 @@ body {
     color: #fff;
 }
 
-/* .navbar-left {
-    float: right!important;
-    }*/
+.navbar-default {
+    background-color: #2099d1;
+    border-color: #2099d1;
+}
 
 .container-fluid {
     background-color: #2098d1;
+    display: table;
 }
 
 .text-muted {
@@ -42,9 +44,8 @@ body {
 
 .navbar-nav {
     float: left;
-    margin: 0;
-    /*Below is how I've centered the menu. How can I do this so it's more responsive friendly?*/
-    margin-left: 600px;
+    /*Below is how I've centered the menu. How can I do this so it's more responsive friendly?
+    margin-left: 600px;*/
 }
 
 .project-link {
@@ -68,12 +69,12 @@ h3 {
         text-align: center;
     }
 
-@    media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
         h2 {
     text-align: center;
     }
 
-@    media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
         h3 {
     text-align: center;
     }
