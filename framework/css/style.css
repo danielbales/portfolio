@@ -70,6 +70,11 @@ h3 {
     }
 
 @media only screen and (max-width: 500px) {
+    .title-logo {
+        display: none;
+    }
+
+@media only screen and (max-width: 500px) {
         h2 {
     text-align: center;
     }
