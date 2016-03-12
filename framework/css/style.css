@@ -2,7 +2,6 @@ body {
     font-family: 'Lato', sans-serif;
     color: #747704;
     font-weight: 300;
-    background-color: #2098d1;
 }
 
 .navbar-default .navbar-nav li a {
@@ -20,7 +19,7 @@ body {
 }
 
 .text-muted {
-    color: black;
+    color: white;
 }
 
 .text-thin {
@@ -49,19 +48,19 @@ body {
 }
 
 .project-link {
-    color: white;
+    color: black;
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 h2 {
-    color: white;
+    color: black;
 }
 
 h3 {
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 500px) {
@@ -83,3 +82,7 @@ h3 {
         h3 {
     text-align: center;
     }
+
+.bottom-bar {
+    padding: 275px 0px 275px 0px;
+}
